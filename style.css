@@ -57,7 +57,7 @@ html {
     box-sizing: content-box;
     bottom: 32%;
     transform: scaleX(0);
-    transition: transform 100ms ease-in-out;
+    transition: transform 150ms ease-in-out;
 }
 
 .navbar a:hover::after {
