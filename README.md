@@ -1,3 +1,13 @@
-# portfolio1
+# Personal Portfolio 1
 
-This is my first iteration of my personal portfolio
+This repository contains files for my personal software engineering portfolio, showcasing information about my background, skills, projects, and contact details.
+
+## Technologies and Tools
+
+- HTML
+- CSS
+- JavaScript
+
+## Contact
+
+Feel free to reach out to me via email at [alexandvo04@gmail.com](mailto:alexandvo04@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/alexvo04).
