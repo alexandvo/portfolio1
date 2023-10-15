@@ -13,6 +13,10 @@
     src: url(./assets/fonts/Lato-Bold.ttf);
 }
 
+:root {
+    --section-padding: 11vw;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -65,32 +69,43 @@ html {
 }
 
 .navbar :nth-child(3) {
-    margin-right: 180px;
+    padding-right: 0;
+    margin-right: 11vw;
+}
+.navbar :nth-child(3)::after {
+    width: 85%;
+    margin-left: 2px;
 }
 
 .home-button {
     position: fixed;
+    width: 50px;
+    height: 50px;
     z-index: 2;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 230px;
-    margin-top: 45px;
+    margin-left: 11vw;
+    margin-top: 20px;
 }
 
-.home-button:hover #inner {
+/* .home-button:hover #inner {
     transform: scale(1.15);
-}
+} */
 
 .home-button:active #inner {
-    transform: scale(0.9);
+    transform: scale(0.6);
+}
+
+.home-button:active #A {
+    transform: scale(0.6);
 }
 
 #outer {
     position: absolute;
     aspect-ratio: 1/1;
-    width: 55px;
+    width: 50px;
     background: #363636;
     border-radius: 100px;
     z-index: 3;
@@ -115,6 +130,7 @@ html {
     font-size: 30px;
     color: white;
     z-index: 5;
+    transition: transform 200ms ease-in-out;
 }
 
 .section-bg {
@@ -122,8 +138,8 @@ html {
 }
 
 .welcome {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 11vw;
+    padding-right: 11vw;
     margin-bottom: 100px;
 }
 
@@ -133,18 +149,18 @@ html {
 }
 
 .about {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
 }
 
 .work {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
 }
 
 .contact {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
 }
 
 #hello {
