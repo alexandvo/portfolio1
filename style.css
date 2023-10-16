@@ -408,9 +408,6 @@ html {
 }
 
 @media (max-width: 510px) {
-    /* .section-bg {
-        height: 150vw;
-    } */
     #hello h1 {
         font-size: 12vw;
     }
