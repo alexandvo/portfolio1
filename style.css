@@ -219,9 +219,6 @@ html {
     padding-top: 20vh;
 }
 
-
-
-
 .about-me-container {
     
     display: flex;
@@ -240,7 +237,7 @@ html {
 .about-me-container p {
     font-family: Lato-Regular;
     font-size: 25px;
-    width: 700px;
+    max-width: 700px;
     text-align: right;;
 }
 
@@ -369,8 +366,6 @@ html {
     margin-bottom: 50px;
 }
 
-
-
 #bar5 {
     position: absolute;
     position: absolute;
@@ -380,52 +375,142 @@ html {
     margin-top: 55px;
     background: #9e0000;
 }
+
+
+
 @media (max-width: 880px) {
-    .about-me-container p {
+    /* .about-me-container p {
         font-size: 3vw;
         width: 76vw;
+    } */
+    .ind-skills-container {
+        width: 76vw;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    #bar1 {
+        width: 350px;
     }
 }
 
-@media (max-width: 820px) {
-    .section-bg {
-        height: 115vw;
+@media (max-width: 700px) {
+    .ind-skills-container {
+        padding-bottom: 1vw;
+    } 
+}
+
+@media (max-width: 561px) {
+    .ind-skills-container {
+        margin-bottom: 3vw;
     }
+}
+
+@media (max-width: 500px) {
+    /* .section-bg {
+        height: 150vw;
+    } */
     #hello h1 {
-        font-size: 7vw;
+        font-size: 12vw;
     }
-    #desc {
-        font-size: 2.7vw;
-        margin-top: 2vw;
-        margin-bottom: 3.6vw;
+    #work h1 {
+        font-size: 12vw;
     }
-    .contact-button div{
-        width: 21vw;
-    }
-    .contact-button p {
-        font-size: 3vw;
-    }
-    .contact-button {
-        width: 21vw;
-    }
-    #bar1 {
-        width: 70vw;
-        height: 2.5vw;
-        margin-left: 3vw;
-        margin-top: 23vw;
-    }
-    .about {
-        padding-top: 20vw;
-    }
-    .about-me-container h1 {
-        font-size: 7vw;
-        margin-bottom: 2vw;
+    #contact h1 {
+        font-size: 12vw;
     }
 
+    .skills-container h1 {
+        font-size: 12vw;
+        margin-bottom: 2vw;
+    }
+    .about-me-container h1 {
+        font-size: 12vw;
+        margin-bottom: 2vw;
+    }
+    .welcome-container {
+        padding-top: 40vw;;
+    }
+
+    #desc {
+        font-size: 5vw;
+    }
+    .about-me-container p {
+        font-size: 5vw;
+    }
+
+    .ind-skills-container span{
+        font-size: 5vw;
+    }
+    #mail {
+        width: 12vw;
+    }
+    #phone {
+        width: 8vw;
+        margin-right: 2vw;
+    }
+    #linkedin {
+        width: 8vw;
+        margin-right: 2vw;
+    }
+
+    .contact span {
+        font-size: 5vw;
+    }
+
+    .contact a {
+        margin: 2vw;
+    }
+
+    .contact h1 {
+        margin-bottom: 10vw;
+    }
+
+    #bar1 {
+        width: 65vw;
+        margin-top: 40vw;
+        height: 4vw;
+        margin-left: 5vw;
+    }
     #bar2 {
-        width: 38vw;
-        margin-right: 3vw;
-        margin-top: 5.5vw;
-        height: 2.5vw;
+        width: 65vw;
+        margin-top: 10vw;
+        height: 4vw;
+        margin-right: 4.5vw;
+    }
+    #bar3 {
+        width: 35vw;
+        margin-top: 10vw;
+        height: 4vw;
+        margin-left: 5vw;
+    }
+    #bar4 {
+        width: 60vw;
+        margin-top: 10vw;
+        height: 4vw;
+        margin-right: 12vw;
+    }
+    #bar5 {
+        width: 51vw;
+        margin-top: 11vw;
+        height: 4vw;
+        margin-left: 10vw;
+    }
+
+    
+    
+    
+    
+}
+
+@media (max-width: 460px) {
+    .navbar a {
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
+    }
+
+    .navbar :nth-child(3) {
+        padding-right: 0px;
     }
 }
