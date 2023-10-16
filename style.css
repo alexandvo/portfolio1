@@ -409,7 +409,7 @@ html {
 
 @media (max-width: 500px) {
     #hello h1 {
-        font-size: 9vw;
+        font-size: 9px;
     }
     #work h1 {
         font-size: 12vw;
