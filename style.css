@@ -407,9 +407,9 @@ html {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #hello h1 {
-        font-size: 12vw;
+        font-size: 11vw;
     }
     #work h1 {
         font-size: 12vw;
