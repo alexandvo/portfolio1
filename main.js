@@ -18,9 +18,9 @@ window.addEventListener('scroll', () => {
     const cloud5 = document.getElementById('cloud-wrapper5');
     const cloud6 = document.getElementById('cloud-wrapper6');
     const yOffset = window.scrollY;
-    cloud1.style.transform = `scale(0.8) translateY(-${yOffset * 0.43}px)`;
+    cloud1.style.transform = `scale(0.8) translateY(-${yOffset * 0.4}px)`;
     cloud2.style.transform = `translateY(${yOffset * 0.2}px)`;
-    cloud3.style.transform = `scaleY(0.6) translateY(-${yOffset * 0.6}px)`;
+    cloud3.style.transform = `scaleY(0.6) translateY(-${yOffset * 0.5}px)`;
 
 });
 window.addEventListener('load', updateHomeButton);
