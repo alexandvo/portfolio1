@@ -27,6 +27,7 @@
 
 body {
     background: #1f1f1f;
+    overflow-x: hidden;
 }
 
 html {
@@ -283,8 +284,8 @@ html {
 
 
 .work {
-    margin-top: 20vh;
-    padding-top: 15vh;
+    margin-top: 2vh;
+    padding-top: 20vh;
 }
 
 .work-title {
@@ -376,7 +377,32 @@ html {
     background: #9e0000;
 }
 
+#cloud-wrapper1 {
+    position: absolute;
+    top: 480px;
+    left: 40vw;
+    transform: scale(0.8);
+}
+#cloud-wrapper2 {
+    position: absolute;
+    left: 10vw;
+    top: 800px;
 
+}
+#cloud-wrapper3 {
+    position: absolute;
+    top: 1500px;
+    transform: scaleY(20.6);
+}
+#cloud-wrapper4 {
+    position: absolute;
+}
+#cloud-wrapper5 {
+    position: absolute;
+}
+#cloud-wrapper6 {
+    position: absolute;
+}
 
 @media (max-width: 880px) {
     /* .about-me-container p {
