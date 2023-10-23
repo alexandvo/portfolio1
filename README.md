@@ -2,6 +2,8 @@
 
 This repository contains files for my personal software engineering portfolio, showcasing information about my background, skills, projects, and contact details.
 
+Visit the portfolio website at (https://alexandvo.github.io/portfolio1/)
+
 ## Technologies and Tools
 
 - HTML
